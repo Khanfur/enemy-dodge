@@ -1,16 +1,7 @@
 {
-    "name": "pixi-typescript-boilerplate",
+    "name": "enemy-dodge",
     "version": "1.0.0",
-    "description": "pixi.js typescript boilerplate webpack",
-    "browserslist": [
-        "last 2 versions",
-        "not dead",
-        "> 0.5%"
-    ],
-    "engines": {
-        "node": ">=20",
-        "npm": ">=9"
-    },
+    "description": "A simple game to practice pixiJS",
     "scripts": {
         "webpack": "webpack",
         "webpack-dev-server": "webpack-dev-server",
