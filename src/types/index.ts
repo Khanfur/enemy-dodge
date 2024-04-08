@@ -1,3 +1,3 @@
-export * from "./coin";
-export * from "./monster";
-export * from "./player";
+export * from './coin';
+export * from './monster';
+export * from './player';

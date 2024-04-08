@@ -1,9 +1,10 @@
-import { Application } from "pixi.js";
-import { Player, Monster, Coin } from "./types";
+import { Application } from 'pixi.js';
+import { Player, Monster, Coin } from './types';
 
 const monsters: Monster[] = [];
 let player: Player;
 let coin: Coin;
+const app = new Application();
 
 function gameLoop() {
     player.update();
@@ -19,8 +20,6 @@ function gameLoop() {
 // setInterval(gameLoop, 1000 / 60);
 
 (async () => {
-    const app = new Application();
-
     await app.init({ background: '#1099bb', resizeTo: window });
     document.body.appendChild(app.canvas);
 })();
